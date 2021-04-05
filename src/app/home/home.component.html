@@ -37,6 +37,10 @@
       <div class="row mb-2">
         <h3>{{item.weather[0].description | titlecase}}</h3>
       </div>
+      
+      <div class="row mb-2">
+        <h5>Feels like {{item.main.feels_like | round }} °C</h5>
+      </div>
 
       <div class="row mb-2">
 
@@ -46,7 +50,7 @@
             <h5>Wind Speed</h5>
           </div>
           <div class="row">
-            <h5>{{item.wind.speed}} km/h</h5>
+            <h5>{{item.wind.speed * 3.6 | number : '1.2-2'}} km/h</h5>
           </div>
         </div>
 
