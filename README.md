@@ -50,6 +50,7 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 ### Credits
 
+* Thanks to [OpenWeather](https://openweathermap.org/) for providing weather data.
 * Thanks to [License: @basmilius/Meteocons](https://github.com/basmilius/weather-icons) for animated weather icons.
 * Thanks to [License: @avmaisak/ngx-bootstrap-icons](https://github.com/avmaisak/ngx-bootstrap-icons) for bootstrap icons.
 * Thanks to [License: @BojanMitevskii/LottieFiles](https://lottiefiles.com/28592-yoga-nature) for animation.
